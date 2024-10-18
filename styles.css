@@ -1,0 +1,25 @@
+.recipe-card {
+    border: 1px solid #ccc; /* Card border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures content stays within card bounds */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.recipe-card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.recipe-image {
+    width: 100%; /* Ensure image fills the card width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.recipe-title {
+    font-size: 1.5em; /* Title font size */
+    margin: 10px 0; /* Spacing above and below the title */
+}
+
+.recipe-description {
+    font-size: 1em; /* Description font size */
+    color: #555; /* Description text color */
+}
