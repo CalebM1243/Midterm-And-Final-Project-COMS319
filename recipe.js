@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchRecipes(){
-    return fetch("./recipes.json")
+    return fetch("./data.json")
     .then(response => response.json())
     .then(json =>{
         return json;
