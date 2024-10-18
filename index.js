@@ -1,4 +1,4 @@
-async function fetchRecipes(){
+function fetchRecipes(){
     return fetch("./recipes.json")
     .then(response => response.json())
     .then(json =>{
