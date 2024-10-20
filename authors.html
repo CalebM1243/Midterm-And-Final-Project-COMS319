@@ -35,6 +35,15 @@
       .title {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       }
+      .author-image {
+          width: 100px; /* Adjust the size of the headshots */
+          height: auto;
+          border-radius: 50%; /* Make the images circular */
+          margin-right: 15px; /* Add some space between the image and text */
+      }
+      .text-content {
+          flex: 1;
+      }
     </style>
 
   </head>
@@ -82,14 +91,20 @@
       <!-- Ryan's section on the left -->
       <div class="col-md-6">
         <div class="info-section">
-          <p><span class="highlight">Ryan Heatley:</span> I'm a third-year computer science student at Iowa State University with a strong interest in web development and software engineering. When I'm not coding, I love exploring new recipes and experimenting in the kitchen. This project allowed me to combine my passion for technology with my love for cooking, creating a website that brings these two worlds together in a meaningful way.</p>
+          <img src="./images/ryanHeadshot.JPG" alt="Ryan Heatley" class="author-image">
+          <div class="text-content">
+            <p><span class="highlight">Ryan Heatley:</span> I'm a third-year computer science student at Iowa State University with a strong interest in web development and software engineering. When I'm not coding, I love exploring new recipes and experimenting in the kitchen. This project allowed me to combine my passion for technology with my love for cooking, creating a website that brings these two worlds together in a meaningful way.</p>
+          </div>
         </div>
       </div>
   
       <!-- Caleb's section on the right -->
       <div class="col-md-6">
         <div class="info-section">
-          <p><span class="highlight">Caleb Moe:</span> As a fellow third-year computer science student, I share a passion for technology, especially in developing creative web applications. I also have a deep interest in culinary arts, often spending my free time perfecting my cooking skills. Working on this recipe website has been an exciting opportunity to apply my coding expertise to something I enjoy, making technology and cooking more accessible to everyone.</p>
+          <img src="./images/calebHeadshot.JPG" alt="Caleb Moe" class="author-image">
+          <div class="text-content">
+            <p><span class="highlight">Caleb Moe:</span> As a fellow third-year computer science student, I share a passion for technology, especially in developing creative web applications. I also have a deep interest in culinary arts, often spending my free time perfecting my cooking skills. Working on this recipe website has been an exciting opportunity to apply my coding expertise to something I enjoy, making technology and cooking more accessible to everyone.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -102,8 +117,7 @@
         </div>
       </div>
     </div>
-  </div>  
-
+  </div>
 
 
     <!-- Full-width section for names, emails, and professor info -->
